@@ -1,0 +1,39 @@
+# =========================
+# 1) Shared (RAG + Image)
+# =========================
+numpy
+pandas
+pyyaml
+tabulate
+
+fastapi
+uvicorn
+python-multipart
+
+pytest
+
+
+# =========================
+# 2) RAG-only (Chat/KB)
+# =========================
+langchain
+langchain-ollama
+langchain-community
+langchain-text-splitters
+
+chromadb
+langchain-chroma
+
+pypdf
+
+
+# =========================
+# 3) Image-only (SEM Analysis)
+# =========================
+opencv-python
+scikit-image
+Pillow
+
+# optional (only for Auto-Scale text OCR)
+pytesseract
+
